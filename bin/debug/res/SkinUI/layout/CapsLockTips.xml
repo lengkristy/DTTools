@@ -1,0 +1,3 @@
+﻿<SkinDialog DefaultWidth="97" DefaultHeight="34">
+	<SkinLayout AlignParentLeft="0" AlignParentTop="0" AlignParentRight="0" AlignParentBottom="0" BkgImage="CapsLockTips.png"/>
+</SkinDialog>

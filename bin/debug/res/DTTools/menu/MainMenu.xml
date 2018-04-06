@@ -1,0 +1,6 @@
+﻿<Menu>
+	<MenuItem Id="20001" Text="IDS_ABOUT"/>
+	<MenuItem Id="20002" Text="IDS_HELP"/>
+	<MenuItem Separator="true"/>
+	<MenuItem Id="2003" Text="IDS_QUIT"/>
+</Menu>

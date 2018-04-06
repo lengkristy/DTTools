@@ -1,0 +1,5 @@
+﻿<SkinRelativeLayout>
+	<SkinRelativeLayout Id="100000">
+		<SkinImageView Id="100001" LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentHorizontalCenter="true" AlignParentVerticalCenter="true" Image="ButtonLoading.gif" AutoPlay="true"/>
+	</SkinRelativeLayout>
+</SkinRelativeLayout>

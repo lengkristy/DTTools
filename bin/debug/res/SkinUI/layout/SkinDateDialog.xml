@@ -1,0 +1,3 @@
+﻿<SkinDialog DefaultWidth="339" DefaultHeight="280" ThemeHeight="0" Animation="SizeChange">
+	<SkinDateLayout Id="100" LayoutWidth="FillParent" LayoutHeight="FillParent" Layout="SkinDateLayout.xml"/>
+</SkinDialog>

@@ -1,0 +1,5 @@
+﻿<Menu>
+	<MenuItem Id="900" Text="IDS_CHANGE_SKIN"/>
+	<MenuItem Id="901" Text="IDS_EXPORT_SKIN"/>
+	<MenuItem Id="902" Text="IDS_DELETE_SKIN"/>
+</Menu>

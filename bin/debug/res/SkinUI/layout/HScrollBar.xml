@@ -1,0 +1,5 @@
+﻿<SkinHorizontalLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<ScrollSlider Id="100001" LayoutWidth="FillParent" LayoutHeight="FillParent" Image="HScrollSlider.png">
+		<ScrollThumb Id="100002" Image="HScrollThumb.png"/>
+	</ScrollSlider>
+</SkinHorizontalLayout>

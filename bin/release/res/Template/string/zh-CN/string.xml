@@ -1,0 +1,6 @@
+﻿<StringTable>
+	<String Id="IDS_APP_NAME">产品名称</String>
+	<String Id="IDS_HELP">帮助</String>
+	<String Id="IDS_ABOUT">关于</String>
+	<String Id="IDS_QUIT">退出</String>
+</StringTable>

@@ -1,0 +1,6 @@
+﻿<SkinRelativeLayout>
+	<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+		<SkinButton Id="100002" LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentRight="5" AlignParentVerticalCenter="true" Image="DateButton.png"/>
+		<SkinTextView Id="100001" LayoutHeight="FillParent" AlignParentLeft="5" ToLeftOf="100002,3"/>
+	</SkinRelativeLayout>
+</SkinRelativeLayout>

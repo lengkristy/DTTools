@@ -1,0 +1,65 @@
+﻿<Images>
+	<Image Name="Max.png" Frame="3"/>
+	<Image Name="Max2.png" Frame="3"/>
+	<Image Name="Menu.png" Frame="3"/>
+	<Image Name="Menu2.png" Frame="3"/>
+	<Image Name="Restore.png" Frame="3"/>
+	<Image Name="Restore2.png" Frame="3"/>
+	<Image Name="Close.png" Frame="3"/>
+	<Image Name="Close2.png" Frame="3"/>
+	<Image Name="Feedback.png" Frame="3"/>
+	<Image Name="Feedback2.png" Frame="3"/>
+	<Image Name="Skin.png" Frame="3"/>
+	<Image Name="Skin2.png" Frame="3"/>
+	<Image Name="Min.png" Frame="3"/>
+	<Image Name="Min2.png" Frame="3"/>
+	<Image Name="TopMost.png" Frame="4"/>
+	<Image Name="TopMost2.png" Frame="4"/>
+	<Image Name="NoTopMost.png" Frame="4"/>
+	<Image Name="NoTopMost2.png" Frame="4"/>
+	<Image Name="Button.png" Frame="4"/>
+	<Image Name="Button2.png" Frame="4"/>
+	<Image Name="SliderThumb.png" Frame="4"/>
+	<Image Name="SliderBkg.png" Frame="2" Patch="8,5,8,5"/>
+	<Image Name="IconButton.png" Frame="3"/>
+	<Image Name="DateButton.png" Frame="4"/>
+	<Image Name="ArrowButton.png" Frame="4"/>
+	<Image Name="ArrowButtonUp.png" Frame="4"/>
+	<Image Name="ArrowButtonDown.png" Frame="4"/>
+	<Image Name="CheckBox.png" Frame="12"/>
+	<Image Name="EditText.png" Frame="4" Patch="4,4,4,4"/>
+	<Image Name="Edit.png" Frame="4" Patch="4,4,4,4"/>
+	<Image Name="SkinTips.png" Patch="48,8,24,16"/>
+	<Image Name="ListItem.png" Frame="3"/>
+	<Image Name="MenuCheck.png" Frame="2"/>
+	<Image Name="MenuBkg.png" Patch="16,16,16,16"/>
+	<Image Name="TopMost.png" Frame="4"/>
+	<Image Name="NoTopMost.png" Frame="4"/>
+	<Image Name="Progress.png" Frame="2" Patch="7,2,7,2"/>
+	<Image Name="WebLoading.png" Frame="2" Patch="7,2,7,2"/>
+	<Image Name="RadioButton.png" Frame="8"/>
+	<Image Name="Shadow.png" Frame="1" Patch="24,24,24,24"/>
+	<Image Name="SlideShadow.png" Frame="1" Patch="16,16,16,16"/>
+	<Image Name="Tips.png"  Patch="16,16,16,16"/>
+	<Image Name="TreeExpand.png" Frame="2"/>
+	<Image Name="VScrollThumb.png" Frame="3" Patch="4,4,4,4"/>
+	<Image Name="HScrollThumb.png" Frame="3" Patch="4,4,4,4"/>
+	<Image Name="ToastIcon.png" Frame="2"/>
+	<Image Name="ImageClose.png" Frame="3"/>
+	<Image Name="ImageClose2.png" Frame="3"/>
+	<Image Name="ImageDefaultSize.png" Frame="3"/>
+	<Image Name="ImageFullScreen.png" Frame="3"/>
+	<Image Name="ImageQuitFullScreen.png" Frame="3"/>
+	<Image Name="ImageRotate.png" Frame="3"/>
+	<Image Name="ImageRotate2.png" Frame="3"/>
+	<Image Name="ImageSave.png" Frame="3"/>
+	<Image Name="ImageLeft.png" Frame="3"/>
+	<Image Name="ImageRight.png" Frame="3"/>
+	<Image Name="ImageShadow.png" Patch="12,12,13,13"/>
+	<Image Name="ImageToolbar.png" Patch="16,16,16,16"/>
+	<Image Name="SearchTabButton.png" Frame="3"/>
+	<Image Name="LastYear.png" Frame="3"/>
+	<Image Name="LastMonth.png" Frame="3"/>
+	<Image Name="NextYear.png" Frame="3"/>
+	<Image Name="NextMonth.png" Frame="3"/>
+</Images>

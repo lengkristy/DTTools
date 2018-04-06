@@ -1,0 +1,4 @@
+﻿<Button>
+	<SkinImageView Id="100001" LayoutWidth="60" LayoutHeight="60" AlignParentHorizontalCenter="Center" AlignParentTop="8"/>
+	<SkinTextView Id="100002" LayoutWidth="FillParent" LayoutHeight="WrapContent" AlignParentHorizontalCenter="Center" ToBottomOf="100001,5" FontStyle="ID_FONT_BOLD_BIG" HorzAlignment="Center"/>
+</Button>

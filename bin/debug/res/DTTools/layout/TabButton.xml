@@ -1,0 +1,3 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<SkinTextView Id="100001" LayoutWidth="FillParent" LayoutHeight="WrapContent" AlignParentBottom="5" FontStyle="ID_FONT_BOLD" FontColor="ID_COLOR_CAPTION" HorzAlignment="Center"/>
+</SkinRelativeLayout>

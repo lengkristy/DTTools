@@ -1,0 +1,17 @@
+﻿<ColorTable>
+	<Color Id="ID_COLOR_BLACK">255,0,0,0</Color>
+	<Color Id="ID_COLOR_WHITE">255,255,255,255</Color>
+	<Color Id="ID_COLOR_TRANSPARENT">0,0,0,0</Color>
+	<Color Id="ID_COLOR_BKG">245,255,255,255</Color>
+	<Color Id="ID_COLOR_TEXT">255,50,55,60</Color>
+	<Color Id="ID_COLOR_TEXT_LIGHT">255,151,156,164</Color>
+	<Color Id="ID_COLOR_TEXT_TIPS">255,190,199,208</Color>
+	<Color Id="ID_COLOR_SEPARATOR">255,235,235,235</Color>
+    <Color Id="ID_COLOR_LINE">30,0,0,0</Color>
+	<Color Id="ID_COLOR_LINE_LIGHT">15,0,0,0</Color>
+	<Color Id="ID_COLOR_BORDER">100,0,0,0</Color>
+	<Color Id="ID_COLOR_HYPERLINK">255,39,134,228</Color>
+	<Color Id="ID_COLOR_HYPERLINK_HOT">255,98,180,247</Color>
+	<Color Id="ID_COLOR_EDIT_SEL_BKG">255,51,153,255</Color>
+	<Color Id="ID_COLOR_LOADING_BKG">153,255,255,255</Color>
+</ColorTable>

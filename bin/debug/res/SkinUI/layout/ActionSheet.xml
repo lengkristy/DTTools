@@ -1,0 +1,6 @@
+﻿<SkinDialog SysButton="CLOSE" Icon="128" DefaultWidth="240" DefaultHeight="95" Animation="SizeChange">
+	<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="60" AlignParentBottom="0" >
+		<SkinLine LayoutWidth="FillParent" LayoutHeight="1" AlignParentTop="0" Color="ID_COLOR_LINE"/>
+		<SkinButton Id="1000" LayoutWidth="90" LayoutHeight="32"  AlignParentVerticalCenter="0" AlignParentHorizontalCenter="0" Image="Button.png" ChildText1="IDS_CANCEL" Layout="Button.xml"/>
+	</SkinRelativeLayout>
+</SkinDialog>

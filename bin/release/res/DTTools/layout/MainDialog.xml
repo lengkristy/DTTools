@@ -1,0 +1,2 @@
+﻿<SkinDialog DefaultWidth="800" DefaultHeight="540" SysButton="SKIN;MENU;MIN;CLOSE" Icon="128" Caption="IDS_APP_NAME" Animation="SizeChange" Menu="MainMenu.xml">
+</SkinDialog>

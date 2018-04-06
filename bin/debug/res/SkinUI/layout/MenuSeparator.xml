@@ -1,0 +1,3 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<SkinLine LayoutHeight="1" AlignParentLeft="0" AlignParentRight="1" AlignParentVerticalCenter="0" Color="ID_COLOR_LINE"/>
+</SkinRelativeLayout>

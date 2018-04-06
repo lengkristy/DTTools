@@ -1,0 +1,6 @@
+﻿<SkinRelativeLayout>
+	<SkinHorizontalLayout LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentHorizontalCenter="true" AlignParentVerticalCenter="0" Image="Shadow.png">
+		<SkinImageViewEx Id="100001" LayoutWidth="WrapContent" LayoutHeight="WrapContent" Margin="30,30,0,30" Image="Loading.png" AutoPlay="true"/>
+		<SkinTextView Id="100002" Text="IDS_LOADING" LayoutWidth="WrapContent" LayoutHeight="WrapContent" Margin="5,30,30,30"/>
+	</SkinHorizontalLayout>
+</SkinRelativeLayout>

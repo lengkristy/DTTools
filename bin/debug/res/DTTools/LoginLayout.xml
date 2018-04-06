@@ -1,0 +1,27 @@
+﻿<LoginLayout>
+	<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent" BkgImage="LoginBkg.png">
+		<SwitchAnimationHost Id="10000" LayoutWidth="360" LayoutHeight="400" AlignParentHorizontalCenter="0" AlignParentVerticalCenter="0" Animation="LeftRightSlide" BkgImage="WhiteBkg.png">
+			<SwitchAnimationHost Id="11000" LayoutWidth="FillParent" LayoutHeight="FillParent" Animation="LeftRightSlide">
+				<SkinRelativeLayout Id="11100" LayoutWidth="FillParent" LayoutHeight="FillParent" >
+					<SkinImageView Id="11101" LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentTop="72" AlignParentHorizontalCenter="0" Image="Logo.png"/>
+					<SkinEditView Id="11103" LayoutWidth="260" LayoutHeight="36" ToBottomOf="11101,40" AlignParentHorizontalCenter="0" Image="Edit.png" Tips="IDS_ACCOUNT_TIPS" Limit="64" AutoSelectAll="true"/>
+					<SkinEditView Id="11104" LayoutWidth="260" LayoutHeight="36" ToBottomOf="11103,10" AlignParentHorizontalCenter="0" Image="Edit.png" Tips="IDS_PASSWORD_TIPS" Limit="16" Password="true"/>
+					<SkinButton Id="11105" LayoutWidth="260" LayoutHeight="36" ToBottomOf="11104,20" AlignParentHorizontalCenter="0" Image="Button2.png" Layout="Button.xml" ChildFontColor1="ID_COLOR_WHITE" ChildText1="IDS_LOGIN"/>
+					<SkinCheckBox Id="11106" LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignLeftOf="11105,0" ToBottomOf="11105,15" ChildText2="IDS_AUTO_LOGIN" Layout="CheckBoxWithText.xml"/>
+					<SkinHyperlink Id="11107" LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentRight="15" AlignParentBottom="15" Text="IDS_SERVER_CONFIG"/>
+					<SkinHyperlink Id="11108" LayoutWidth="WrapContent" LayoutHeight="WrapContent" ToLeftOf="11107,15" AlignParentBottom="15" Text="IDS_FORGET_PASSWORD"/>
+				</SkinRelativeLayout>
+				<SkinRelativeLayout Id="11200" LayoutWidth="FillParent" LayoutHeight="FillParent" Visible="false">
+					<SkinImageView Id="11201" LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentHorizontalCenter="0" AlignParentVerticalCenter="-20" Image="LoginIng.png"/>
+					<SkinTextView Id="11202" LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentHorizontalCenter="0" ToBottomOf="11201,20" Text="IDS_LOGIN_ING"/>
+				</SkinRelativeLayout>
+			</SwitchAnimationHost>
+			<SkinRelativeLayout Id="12000" LayoutWidth="FillParent" LayoutHeight="FillParent" Visible="false">
+				<SkinEditView Id="12001" LayoutWidth="260" LayoutHeight="36" AlignParentTop="120" AlignParentHorizontalCenter="0" Image="Edit.png" Tips="IDS_IP_TIPS" Limit="512" Layout="ComboBox.xml"/>
+				<SkinEditView Id="12002" LayoutWidth="260" LayoutHeight="36" ToBottomOf="12001,36" AlignParentHorizontalCenter="0" Image="Edit.png" Tips="IDS_PORT_TIPS" Limit="4" Number="true"/>
+				<SkinButton Id="12003" LayoutWidth="120" LayoutHeight="36" ToBottomOf="12002,36" AlignLeftOf="12002,0" Image="Button2.png" Layout="Button.xml" ChildFontColor1="ID_COLOR_WHITE" ChildText1="IDS_OK"/>
+				<SkinButton Id="12004" LayoutWidth="120" LayoutHeight="36" ToBottomOf="12002,36" AlignRightOf="12002,0" Image="Button2.png" Layout="Button.xml" ChildFontColor1="ID_COLOR_WHITE" ChildText1="IDS_CANCEL"/>
+			</SkinRelativeLayout>
+		</SwitchAnimationHost>
+	</SkinRelativeLayout>
+</LoginLayout>

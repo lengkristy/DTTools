@@ -1,0 +1,11 @@
+﻿<SkinDialog DefaultWidth="460" DefaultHeight="251" SysButton="CLOSE" Icon="128" Animation="SizeChange">
+	<SkinTextView Id="100001" MaxWidth="360" LayoutHeight="WrapContent" AlignParentLeft="50" AlignParentRight="50" MultiLine="true"/>
+	<SkinCheckBox Id="100002" LayoutWidth="300" LayoutHeight="32" ChildText1="IDS_CONTROL_SHOW_TEXT8" Layout="CheckBox.xml" AlignParentLeft="50" AlignParentBottom="55" Visible="false"/>
+	<SkinEditView Id="100003" LayoutHeight="64" AlignParentLeft="50" AlignParentRight="50" AlignParentBottom="60" MultiLine="true" Image="Edit.png" VScrollBar="VScrollBar.xml" Visible="false"/>
+	<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="60" AlignParentBottom="0" >
+		<SkinLine LayoutWidth="FillParent" LayoutHeight="1" AlignParentTop="0" Color="ID_COLOR_LINE"/>
+		<SkinButton Id="1" LayoutWidth="90" LayoutHeight="32" AlignParentVerticalCenter="true" AlignParentHorizontalCenter="true" Image="Button2.png" ChildText1="IDS_OK" ChildFontColor1="ID_COLOR_WHITE" Layout="Button.xml" Visible="false"/>
+		<SkinButton Id="6" LayoutWidth="90" LayoutHeight="32" AlignParentVerticalCenter="true" AlignParentRight="130" Image="Button2.png" ChildText1="IDS_OK" ChildFontColor1="ID_COLOR_WHITE" Layout="Button.xml" Visible="false"/>
+		<SkinButton Id="7" LayoutWidth="90" LayoutHeight="32" AlignParentVerticalCenter="true" AlignParentRight="20" Image="Button.png" ChildText1="IDS_CANCEL" Layout="Button.xml" Visible="false"/>
+	</SkinRelativeLayout>
+</SkinDialog>

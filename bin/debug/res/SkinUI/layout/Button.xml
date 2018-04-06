@@ -1,0 +1,5 @@
+﻿<SkinButton>
+	<SkinHorizontalLayout LayoutWidth="WrapContent" LayoutHeight="FillParent">
+		<SkinTextView Id="100001" LayoutWidth="WrapContent" LayoutHeight="WrapContent" Margin="6,0,6,0" FontStyle="ID_FONT_NORMAL" HorzAlignment="Center"/>
+	</SkinHorizontalLayout>
+</SkinButton>

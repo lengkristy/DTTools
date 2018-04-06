@@ -1,0 +1,10 @@
+﻿<Configs>
+	<DialogRadius>6</DialogRadius>
+	<DialogCaptionFontStyle>ID_FONT_BOLD</DialogCaptionFontStyle>
+	<DialogShadowPatch>12,12,12,12</DialogShadowPatch>
+	<DialogSysButtonRightOffset>0</DialogSysButtonRightOffset>
+	<MenuMinWidth>150</MenuMinWidth>
+	<MenuItemHeight>24</MenuItemHeight>
+	<MenuSeparatorHeight>5</MenuSeparatorHeight>
+	<FullTransparentSkin>true</FullTransparentSkin>
+</Configs>

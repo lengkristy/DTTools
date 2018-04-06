@@ -1,0 +1,19 @@
+﻿<FontFamily>
+	<Familys>
+		<Family>微软雅黑</Family>
+		<Family>新宋体</Family>
+		<Family>宋体</Family>
+	</Familys>
+	<Fonts>
+        <Font Id="ID_FONT_SMALL_SMALL" Size="6" Bold="false" Italic="false" Strikeout="false" Underline="false"/>
+		<Font Id="ID_FONT_SMALL" Size="8" Bold="false" Italic="false" Strikeout="false" Underline="false"/>
+		<Font Id="ID_FONT_NORMAL" Size="10" Bold="false" Italic="false" Strikeout="false" Underline="false"/>
+		<Font Id="ID_FONT_HYPERLINK" Size="10" Bold="false" Italic="false" Strikeout="false" Underline="true"/>
+		<Font Id="ID_FONT_HYPERLINK_BOLD" Size="10" Bold="true" Italic="false" Strikeout="false" Underline="true"/>
+		<Font Id="ID_FONT_BOLD" Size="10" Bold="true" Italic="false" Strikeout="false" Underline="false"/>
+		<Font Id="ID_FONT_BIG" Size="12" Bold="false" Italic="false" Strikeout="false" Underline="false"/>
+		<Font Id="ID_FONT_BOLD_BIG" Size="12" Bold="true" Italic="false" Strikeout="false" Underline="false"/>
+		<Font Id="ID_FONT_BIG_BIG" Size="14" Bold="false" Italic="false" Strikeout="false" Underline="false"/>
+		<Font Id="ID_FONT_BOLD_BIG_BIG" Size="16" Bold="true" Italic="false" Strikeout="false" Underline="false"/>
+	</Fonts>
+</FontFamily>

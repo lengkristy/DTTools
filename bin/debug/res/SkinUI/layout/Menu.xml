@@ -1,0 +1,4 @@
+﻿<SkinDialog Animation="SizeChange" ThemeHeight="0">
+	<SkinMenuList Id="100001" AlignParentLeft="0" AlignParentTop="5" AlignParentRight="0" AlignParentBottom="5"/>
+	<SkinLayout AlignParentLeft="0" AlignParentTop="0" AlignParentRight="0" AlignParentBottom="0" BkgColor="ID_COLOR_DEFAULT2"/>
+</SkinDialog>

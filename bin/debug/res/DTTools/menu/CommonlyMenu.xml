@@ -1,0 +1,5 @@
+﻿<Menu>
+	<MenuItem Id="40001" Text="IDS_ADD_COMMONLY"/>	
+	<MenuItem Separator="true"/>
+	<MenuItem Id="40002" Text="IDS_DELETE_COMMONLY"/>
+</Menu>

@@ -1,0 +1,4 @@
+﻿<SkinDialog>
+	<SkinTextView Id="100001" AlignParentLeft="10" AlignParentTop="8" AlignParentRight="10" AlignParentBottom="8" MultiLine="true" MaxWidth="245"/>
+	<SkinLayout AlignParentLeft="0" AlignParentTop="0" AlignParentRight="0" AlignParentBottom="0" BkgImage="Tips.png"/>
+</SkinDialog>

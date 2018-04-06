@@ -1,0 +1,29 @@
+﻿<FontFamily>
+	<Familys>
+		<Family>微软雅黑</Family>
+		<Family>新宋体</Family>
+		<Family>宋体</Family>
+	</Familys>
+	<Fonts>
+        <Font Id="ID_FONT_SMALL" Size="7" Bold="false" Italic="false" Strikeout="false" Underline="false"/>
+		<Font Id="ID_FONT_NORMAL" Size="9" Bold="false" Italic="false" Strikeout="false" Underline="false"/>
+		<Font Id="ID_FONT_HYPERLINK" Size="9" Bold="false" Italic="false" Strikeout="false" Underline="true"/>
+		<Font Id="ID_FONT_HYPERLINK_BOLD" Size="9" Bold="true" Italic="false" Strikeout="false" Underline="true"/>
+		<Font Id="ID_FONT_BOLD" Size="9" Bold="true" Italic="false" Strikeout="false" Underline="false"/>
+		<Font Id="ID_FONT_BIG" Size="11" Bold="false" Italic="false" Strikeout="false" Underline="false"/>
+		<Font Id="ID_FONT_BOLD_BIG" Size="11" Bold="true" Italic="false" Strikeout="false" Underline="false"/>
+		<Font Id="ID_FONT_BIG_BIG" Size="13" Bold="false" Italic="false" Strikeout="false" Underline="false"/>
+		<Font Id="ID_FONT_BOLD_BIG_BIG" Size="13" Bold="true" Italic="false" Strikeout="false" Underline="false"/>
+		<Font Id="ID_FONT_HEAD_8" Size="8" Bold="true" Italic="false" Strikeout="false" Underline="false"/>
+		<Font Id="ID_FONT_HEAD_10" Size="10" Bold="true" Italic="false" Strikeout="false" Underline="false"/>
+		<Font Id="ID_FONT_HEAD_12" Size="12" Bold="true" Italic="false" Strikeout="false" Underline="false"/>
+		<Font Id="ID_FONT_HEAD_13" Size="13" Bold="false" Italic="false" Strikeout="false" Underline="false"/>
+		<Font Id="ID_FONT_HEAD_15" Size="15" Bold="false" Italic="false" Strikeout="false" Underline="false"/>
+		<Font Id="ID_FONT_HEAD_16" Size="16" Bold="false" Italic="false" Strikeout="false" Underline="false"/>
+		<Font Id="ID_FONT_HEAD_17" Size="17" Bold="false" Italic="false" Strikeout="false" Underline="false"/>
+		<Font Id="ID_FONT_HEAD_19" Size="19" Bold="false" Italic="false" Strikeout="false" Underline="false"/>
+		<Font Id="ID_FONT_HEAD_21" Size="21" Bold="false" Italic="false" Strikeout="false" Underline="false"/>
+		<Font Id="ID_FONT_HEAD_35" Size="35" Bold="false" Italic="false" Strikeout="false" Underline="false"/>
+		<Font Id="ID_FONT_HEAD_48" Size="48" Bold="false" Italic="false" Strikeout="false" Underline="false"/>
+	</Fonts>
+</FontFamily>

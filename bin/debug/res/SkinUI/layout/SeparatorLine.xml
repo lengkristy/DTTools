@@ -1,0 +1,4 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<SkinTextView Id="100001" LayoutWidth="WrapContent" LayoutHeight="FillParent" AlignParentLeft="0" FontStyle="ID_FONT_BOLD"/>
+	<SkinLine Id="100002" LayoutHeight="1" ToRightOf="100001,5" AlignParentRight="10" AlignParentVerticalCenter="0" DashStyle="Dot" StartColor="ID_COLOR_TEXT" EndColor="ID_COLOR_TRANSPARENT"/>
+</SkinRelativeLayout>

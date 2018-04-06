@@ -1,0 +1,9 @@
+﻿<ColorTable>
+	<Color Id="ID_COLOR_BLACK">255,60,60,60</Color>
+	<Color Id="ID_COLOR_MAIN_TAB_LINE">50,40,51,60</Color>
+	<Color Id="ID_COLOR_EMOTION_HOT">255,255,0,0</Color>
+	<Color Id="ID_COLOR_PRINT_SCREEN_BKG">150,0,0,0</Color>
+	<Color Id="ID_COLOR_PRINT_SCREEN_BORDER">255,248,100,24</Color>
+	<Color Id="ID_COLOR_PRINT_SCREEN_PREVIEW">255,0,174,255</Color>
+	<Color Id="ID_COLOR_TIPS_DIALOG_BKG">175,0,0,0</Color>
+</ColorTable>

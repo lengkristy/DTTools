@@ -1,0 +1,6 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<SkinTextView Text="IDS_MAKE_SKIN_TIPS1" AlignParentLeft="20" AlignParentRight="20" AlignParentTop="20" LayoutHeight="24" HorzAlignment="Center"/>
+	<SkinTextView Text="IDS_MAKE_SKIN_TIPS2" AlignParentLeft="20" AlignParentRight="20" AlignParentTop="44" LayoutHeight="24" HorzAlignment="Center"/>
+	<SkinButton Id="1" LayoutWidth="75" LayoutHeight="30" ChildText1="IDS_OK" Image="Button.png" Layout="Button.xml" AlignParentLeft="35" AlignParentBottom="20" PressDownOffset="1"/>
+	<SkinButton Id="2" LayoutWidth="75" LayoutHeight="30" ChildText1="IDS_CANCEL" Image="Button.png" Layout="Button.xml" AlignParentRight="35" AlignParentBottom="20" PressDownOffset="1"/>
+</SkinRelativeLayout>

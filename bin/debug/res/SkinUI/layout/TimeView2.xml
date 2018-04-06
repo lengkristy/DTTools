@@ -1,0 +1,14 @@
+﻿<SkinRelativeLayout>
+	<SkinHorzPercentLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+		<SkinRelativeLayout LayoutWidth="50" LayoutHeight="FillParent">
+			<SkinButton Id="100002" LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentRight="5" AlignParentVerticalCenter="-5" Image="ArrowButtonUp.png"/>
+			<SkinButton Id="100003" LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentRight="5" AlignParentVerticalCenter="5" Image="ArrowButtonDown.png"/>
+			<SkinTextView Id="100001" LayoutHeight="FillParent" AlignParentLeft="0" ToLeftOf="100002,0" HorzAlignment="Center"/>
+		</SkinRelativeLayout>
+		<SkinRelativeLayout LayoutWidth="50" LayoutHeight="FillParent">
+			<SkinButton Id="100012" LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentRight="5" AlignParentVerticalCenter="-5" Image="ArrowButtonUp.png"/>
+			<SkinButton Id="100013" LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentRight="5" AlignParentVerticalCenter="5" Image="ArrowButtonDown.png"/>
+			<SkinTextView Id="100011" LayoutHeight="FillParent" AlignParentLeft="0" ToLeftOf="100012,0" HorzAlignment="Center"/>
+		</SkinRelativeLayout>
+	</SkinHorzPercentLayout>
+</SkinRelativeLayout>

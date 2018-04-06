@@ -1,0 +1,3 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<SkinComboTextView Id="100003" AlignParentLeft="5" AlignParentRight="5" LayoutHeight="FillParent" HorzAlignment="Left" FontColorChecked="ID_COLOR_MENU_TEXT_CHECKED"/>
+</SkinRelativeLayout>

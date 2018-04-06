@@ -1,0 +1,6 @@
+<CommonlyUsedLayout>
+	<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+		<SkinListView Id="21001" AlignParentLeft="2" AlignParentRight="2" AlignParentTop="2" AlignParentBottom="2" VScrollBar="VScrollBar.xml">
+		</SkinListView>
+	</SkinRelativeLayout>
+</CommonlyUsedLayout>

@@ -1,0 +1,3 @@
+﻿<SkinListItem>
+	<SkinTextView Id="100001" LayoutWidth="FillParent" LayoutHeight="FillParent" HorzAlignment="Center"/>
+</SkinListItem>

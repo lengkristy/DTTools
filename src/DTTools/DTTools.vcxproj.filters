@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resources Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Include File">
+      <UniqueIdentifier>{1eda9689-ec02-40b7-987e-ee5666ebb819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Control">
+      <UniqueIdentifier>{7232a847-b4bc-4a2b-96ca-af79047b6cef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog">
+      <UniqueIdentifier>{2ed6a932-fad5-4225-80d3-43cf69b680f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Layout">
+      <UniqueIdentifier>{3631a530-897e-428d-8fba-dc2eedc98f15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic">
+      <UniqueIdentifier>{b05a366f-3bd8-4064-b395-4e31fb7679b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Control\Header Files">
+      <UniqueIdentifier>{4807b304-9f03-4f58-97c8-d8561b550fc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog\Header Files">
+      <UniqueIdentifier>{3dc4ac73-4c58-483b-8dd4-9d76c81b24d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Layout\Header Files">
+      <UniqueIdentifier>{91e739a0-caaa-433e-bd3c-730f81441b47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Header Files">
+      <UniqueIdentifier>{6a7966b0-8e9e-4587-80fc-1e0af7f145e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Control\Source Files">
+      <UniqueIdentifier>{d83da8db-fbc0-4716-b350-1604cd3814a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog\Source Files">
+      <UniqueIdentifier>{780bd02b-d201-44a1-a6ae-c5d56bd34b87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Layout\Source Files">
+      <UniqueIdentifier>{4a88ae87-757e-4436-9373-e3338220ab29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Source Files">
+      <UniqueIdentifier>{e75a9365-b078-4b8d-80cd-5ad7234e2642}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{960e7259-a96a-4d35-8437-5ef172169aa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Header Files">
+      <UniqueIdentifier>{cf32499e-f753-4715-9b3d-c3674686e7b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Source Files">
+      <UniqueIdentifier>{c7461c83-d0f0-414c-824b-9db19d303fc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sqlite">
+      <UniqueIdentifier>{3ae29aba-1f4d-4071-9b05-659f29c39f86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sqlite\Header Files">
+      <UniqueIdentifier>{cd7fd02a-0808-4e58-9f0e-cb1b7fa230eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sqlite\Source Files">
+      <UniqueIdentifier>{6724ea70-d434-47e6-876d-5d553834bac8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DTTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainDialog.cpp">
+      <Filter>Dialog\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Icons.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Dib.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\IconSnap.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Layout\CommonlyUsedLayout.cpp">
+      <Filter>Layout\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Command.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Layout\CommonlyUsedItem.cpp">
+      <Filter>Layout\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlite\sqlite3.c">
+      <Filter>Sqlite\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DTTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\SkinUI\SkinApplication.h">
+      <Filter>Include File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\SkinUI\SkinCommon.h">
+      <Filter>Include File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\SkinUI\SkinControl.h">
+      <Filter>Include File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\SkinUI\SkinDefine.h">
+      <Filter>Include File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\SkinUI\SkinDialog.h">
+      <Filter>Include File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\SkinUI\SkinFunction.h">
+      <Filter>Include File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\SkinUI\SkinUI.h">
+      <Filter>Include File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\SkinUI\SkinView.h">
+      <Filter>Include File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\SkinUI\SkinWindow.h">
+      <Filter>Include File</Filter>
+    </ClInclude>
+    <ClInclude Include="MainDialog.h">
+      <Filter>Dialog\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\SysResource.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Icons.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dib.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\IconSnap.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Layout\CommonlyUsedLayout.h">
+      <Filter>Layout\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Layout\CommonlyUsedItem.h">
+      <Filter>Layout\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Command.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite\sqlite3.h">
+      <Filter>Sqlite\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DTTools.rc">
+      <Filter>Resources Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="DTTools.ico">
+      <Filter>Resources Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

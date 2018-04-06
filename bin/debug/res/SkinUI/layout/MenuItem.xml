@@ -1,0 +1,8 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<SkinRelativeLayout Id="100001" LayoutWidth="16" LayoutHeight="16" AlignParentLeft="10" AlignParentVerticalCenter="0">
+		<SkinMenuImageView Id="100003" LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentHorizontalCenter="0" AlignParentVerticalCenter="0"/>
+		<SkinMenuStateView Id="100004" LayoutWidth="FillParent" LayoutHeight="FillParent"/>
+	</SkinRelativeLayout>
+	<SkinMenuTextView Id="100002" LayoutHeight="FillParent" AlignParentRight="10" ToRightOf="100001,10"/>
+	<SkinImageView Id="100005" LayoutWidth="WrapContent" LayoutHeight="WrapContent" Image="MenuArrow.png" Visible="false" AlignParentRight="0" AlignParentVerticalCenter="0"/>
+</SkinRelativeLayout>

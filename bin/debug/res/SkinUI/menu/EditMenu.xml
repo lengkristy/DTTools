@@ -1,0 +1,7 @@
+﻿<Menu>
+	<MenuItem Id="11001" Text="IDS_CUT"/>
+	<MenuItem Id="11002" Text="IDS_COPY"/>
+	<MenuItem Id="11003" Text="IDS_PASTE"/>
+	<MenuItem Id="11004" Text="IDS_DELETE"/>
+	<MenuItem Id="11005" Text="IDS_SELECT_ALL"/>
+</Menu>

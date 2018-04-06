@@ -1,0 +1,4 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<SkinImageView Id="100001" LayoutWidth="WrapContent" LayoutHeight="WrapContent" Image="TreeExpand.png" AlignParentLeft="5" AlignParentVerticalCenter="0"/>
+	<SkinTextView Id="100002" ToRightOf="100001,3" AlignParentRight="5" LayoutHeight="FillParent" Text="IDS_CONTROL_SHOW_TEXT22" FontStyle="ID_FONT_NORMAL" HorzAlignment="Left"/>
+</SkinRelativeLayout>

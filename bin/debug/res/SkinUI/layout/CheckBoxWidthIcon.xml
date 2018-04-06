@@ -1,0 +1,7 @@
+﻿<SkinCheckBox>
+	<SkinHorizontalLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+		<SkinCheckBoxState Id="100001" LayoutWidth="WrapContent" LayoutHeight="WrapContent" Image="CheckBox.png" FontStyle="ID_FONT_NORMAL" Margin="0,0,5,0"/>
+		<SkinImageView Id="100002" LayoutWidth="WrapContent" LayoutHeight="WrapContent" FontStyle="ID_FONT_NORMAL" Margin="0,0,5,0"/>
+		<SkinTextView Id="100003" LayoutWidth="WrapContent" LayoutHeight="WrapContent" FontStyle="ID_FONT_NORMAL" HorzAlignment="Left"/>
+	</SkinHorizontalLayout>
+</SkinCheckBox>

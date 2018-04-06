@@ -1,0 +1,4 @@
+﻿<SkinDialog Animation="TopBottomExpand">
+	<SkinComboList Id="100002" AlignParentLeft="5" AlignParentTop="5" AlignParentRight="5" AlignParentBottom="5" VScrollBar="VScrollBar.xml"/>
+	<SkinLayout AlignParentLeft="0" AlignParentTop="0" AlignParentRight="0" AlignParentBottom="0" BkgImage="ComboBkg.png"/>
+</SkinDialog>

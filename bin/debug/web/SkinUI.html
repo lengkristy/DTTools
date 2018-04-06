@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>SkinUI JS API</title>
+<script type="text/javascript">
+
+function sendMessage(jsonParams)
+{
+	if(window.cefQuery)
+	{
+		window.cefQuery({'request' : jsonParams});
+	}
+	else
+	{
+		window.external.ieQuery(jsonParams);
+	}
+}
+
+function responseCallback(param)
+{
+	alert(param);
+}
+
+function CallCPlusPlusFunction1Param()
+{
+	var jsonParams = '{\
+	"key": "Function1Param",\
+	"data": {"param1": "param1"},\
+	"callback": "responseCallback(\'Function1Param执行成功！\');"}';
+	sendMessage(jsonParams);
+}
+
+function CallCPlusPlusFunction2Param()
+{
+	var jsonParams = '{\
+	"key": "Function2Param",\
+	"data": {"param1": "param1","param2": "param2"},\
+	"callback": "responseCallback(\'Function2Param执行成功！\');"}';
+	sendMessage(jsonParams);
+}
+
+function CallCPlusPlusFunction3Param()
+{
+	var jsonParams = '{\
+	"key": "Function3Param",\
+	"data": {"param1": "param1","param2": "param2","param3": "param3"},\
+	"callback": "responseCallback(\'Function3Param执行成功！\');"}';
+	sendMessage(jsonParams);
+}
+
+function CallCPlusPlusFunction4Param()
+{
+	var jsonParams = '{\
+	"key": "Function4Param",\
+	"data": {"param1": "param1","param2": "param2","param3": "param3","param4": "param4"},\
+	"callback": "responseCallback(\'Function4Param执行成功！\');"}';
+	sendMessage(jsonParams);
+}
+
+function CallCPlusPlusFunction5Param()
+{
+	var jsonParams = '{\
+	"key": "Function5Param",\
+	"data": {"param1": "param1","param2": "param2","param3": "param3","param4": "param4","param5": "param5"},\
+	"callback": "responseCallback(\'Function5Param执行成功！\');"}';
+	sendMessage(jsonParams);
+}
+
+function CallCPlusPlusFunction6Param()
+{
+	var jsonParams = '{\
+	"key": "Function6Param",\
+	"data": {"param1": "param1","param2": "param2","param3": "param3","param4": "param4","param5": "param5","param6": "param6"},\
+	"callback": "responseCallback(\'Function6Param执行成功！\');"}';
+	sendMessage(jsonParams);
+}
+
+function CallCPlusPlusFunction7Param()
+{
+	var jsonParams = '{\
+	"key": "Function7Param",\
+	"data": {"param1": "param1","param2": "param2","param3": "param3","param4": "param4","param5": "param5","param6": "param6","param7": "param7"},\
+	"callback": "responseCallback(\'Function7Param执行成功！\');"}';
+	sendMessage(jsonParams);
+}
+
+function CallCPlusPlusFunction8Param()
+{
+	var jsonParams = '{\
+	"key": "Function8Param",\
+	"data": {"param1": "param1","param2": "param2","param3": "param3","param4": "param4","param5": "param5","param6": "param6","param7": "param7","param8": "param8"},\
+	"callback": "responseCallback(\'Function8Param执行成功！\');"}';
+	sendMessage(jsonParams);
+}
+
+function CallCPlusPlusFunction9Param()
+{
+	var jsonParams = '{\
+	"key": "Function9Param",\
+	"data": {"param1": "param1","param2": "param2","param3": "param3","param4": "param4","param5": "param5","param6": "param6","param7": "param7","param8": "param8","param9": "param9"},\
+	"callback": "responseCallback(\'Function9Param执行成功！\');"}';
+	sendMessage(jsonParams);
+}
+
+function JavaScriptFunction1Param(param1)
+{
+	alert(param1);
+}
+
+function JavaScriptFunction2Param(param1, param2)
+{
+	alert(param1 + '\r\n' + param2);
+}
+
+function JavaScriptFunction3Param(param1, param2, param3)
+{
+	alert(param1 + '\r\n' + param2 + '\r\n' + param3);
+}
+
+function JavaScriptFunction4Param(param1, param2, param3, param4)
+{
+	alert(param1 + '\r\n' + param2 + '\r\n' + param3 + '\r\n' + param4);
+}
+
+function JavaScriptFunction5Param(param1, param2, param3, param4, param5)
+{
+	alert(param1 + '\r\n' + param2 + '\r\n' + param3 + '\r\n' + param4 + '\r\n' + param5);
+}
+
+function JavaScriptFunction6Param(param1, param2, param3, param4, param5, param6)
+{
+	alert(param1 + '\r\n' + param2 + '\r\n' + param3 + '\r\n' + param4 + '\r\n' + param5 + '\r\n' + param6);
+}
+
+function JavaScriptFunction7Param(param1, param2, param3, param4, param5, param6, param7)
+{
+	alert(param1 + '\r\n' + param2 + '\r\n' + param3 + '\r\n' + param4 + '\r\n' + param5 + '\r\n' + param6 + '\r\n' + param7);
+}
+
+function JavaScriptFunction8Param(param1, param2, param3, param4, param5, param6, param7, param8)
+{
+	alert(param1 + '\r\n' + param2 + '\r\n' + param3 + '\r\n' + param4 + '\r\n' + param5 + '\r\n' + param6 + '\r\n' + param7 + '\r\n' + param8);
+}
+
+function JavaScriptFunction9Param(param1, param2, param3, param4, param5, param6, param7, param8, param9)
+{
+	alert(param1 + '\r\n' + param2 + '\r\n' + param3 + '\r\n' + param4 + '\r\n' + param5 + '\r\n' + param6 + '\r\n' + param7 + '\r\n' + param8 + '\r\n' + param9);
+}
+</script>
+</head>
+<body bgcolor="white">
+<p><input type="button" onclick="CallCPlusPlusFunction1Param();" value="JS调用C++方法(1个参数)"></p>
+<p><input type="button" onclick="CallCPlusPlusFunction2Param();" value="JS调用C++方法(2个参数)"></p>
+<p><input type="button" onclick="CallCPlusPlusFunction3Param();" value="JS调用C++方法(3个参数)"></p>
+<p><input type="button" onclick="CallCPlusPlusFunction4Param();" value="JS调用C++方法(4个参数)"></p>
+<p><input type="button" onclick="CallCPlusPlusFunction5Param();" value="JS调用C++方法(5个参数)"></p>
+<p><input type="button" onclick="CallCPlusPlusFunction6Param();" value="JS调用C++方法(6个参数)"></p>
+<p><input type="button" onclick="CallCPlusPlusFunction7Param();" value="JS调用C++方法(7个参数)"></p>
+<p><input type="button" onclick="CallCPlusPlusFunction8Param();" value="JS调用C++方法(8个参数)"></p>
+<p><input type="button" onclick="CallCPlusPlusFunction9Param();" value="JS调用C++方法(9个参数)"></p>
+</body>
+</html>

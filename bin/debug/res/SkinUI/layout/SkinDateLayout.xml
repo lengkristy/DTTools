@@ -1,0 +1,32 @@
+﻿<SkinDateLayout>
+	<SkinVertPercentLayout Id="100000" LayoutHeight="25" BkgColor="ID_COLOR_DEFAULT2">
+		<SkinHorzPercentLayout LayoutHeight="50">
+			<SkinRelativeLayout LayoutWidth="3" LayoutHeight="FillParent">
+				<SkinTextView Id="100005" LayoutWidth="WrapContent" LayoutHeight="FillParent" AlignParentLeft="10" FontStyle="ID_FONT_BIG"/>
+			</SkinRelativeLayout>
+			<SkinRelativeLayout LayoutWidth="1" LayoutHeight="FillParent">
+				<SkinButton Id="100001" LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentHorizontalCenter="0" AlignParentVerticalCenter="0" Image="LastYear.png"/>
+			</SkinRelativeLayout>
+			<SkinRelativeLayout LayoutWidth="1" LayoutHeight="FillParent">
+				<SkinButton Id="100004" LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentHorizontalCenter="0" AlignParentVerticalCenter="0" Image="NextYear.png"/>
+			</SkinRelativeLayout>
+			<SkinRelativeLayout LayoutWidth="1" LayoutHeight="FillParent">
+				<SkinButton Id="100002" LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentHorizontalCenter="0" AlignParentVerticalCenter="0" Image="LastMonth.png"/>
+			</SkinRelativeLayout>
+			<SkinRelativeLayout LayoutWidth="1" LayoutHeight="FillParent">
+				<SkinButton Id="100003" LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentHorizontalCenter="0" AlignParentVerticalCenter="0" Image="NextMonth.png"/>
+			</SkinRelativeLayout>
+		</SkinHorzPercentLayout>
+		<SkinHorzPercentLayout LayoutHeight="50">
+			<SkinTextView LayoutWidth="1" LayoutHeight="FillParent" Text="IDS_WEEK_1" HorzAlignment="Center" FontStyle="ID_FONT_SMALL" FontColor="ID_COLOR_TEXT_LIGHT"/>
+			<SkinTextView LayoutWidth="1" LayoutHeight="FillParent" Text="IDS_WEEK_2" HorzAlignment="Center" FontStyle="ID_FONT_SMALL" FontColor="ID_COLOR_TEXT_LIGHT"/>
+			<SkinTextView LayoutWidth="1" LayoutHeight="FillParent" Text="IDS_WEEK_3" HorzAlignment="Center" FontStyle="ID_FONT_SMALL" FontColor="ID_COLOR_TEXT_LIGHT"/>
+			<SkinTextView LayoutWidth="1" LayoutHeight="FillParent" Text="IDS_WEEK_4" HorzAlignment="Center" FontStyle="ID_FONT_SMALL" FontColor="ID_COLOR_TEXT_LIGHT"/>
+			<SkinTextView LayoutWidth="1" LayoutHeight="FillParent" Text="IDS_WEEK_5" HorzAlignment="Center" FontStyle="ID_FONT_SMALL" FontColor="ID_COLOR_TEXT_LIGHT"/>
+			<SkinTextView LayoutWidth="1" LayoutHeight="FillParent" Text="IDS_WEEK_6" HorzAlignment="Center" FontStyle="ID_FONT_SMALL" FontColor="ID_COLOR_TEXT_LIGHT"/>
+			<SkinTextView LayoutWidth="1" LayoutHeight="FillParent" Text="IDS_WEEK_7" HorzAlignment="Center" FontStyle="ID_FONT_SMALL" FontColor="ID_COLOR_TEXT_LIGHT"/>
+		</SkinHorzPercentLayout>
+	</SkinVertPercentLayout>
+	<SkinGridView Id="102000" LayoutHeight="75" ColumnCount="7" AllowGetChild="true">
+	</SkinGridView>
+</SkinDateLayout>

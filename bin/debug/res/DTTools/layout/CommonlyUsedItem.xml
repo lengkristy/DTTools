@@ -1,0 +1,17 @@
+﻿<SkinRelativeLayout>
+	<SkinHorzPercentLayout AlignParentLeft="0" AlignParentRight="0" LayoutHeight="50" >
+		<SkinRelativeLayout LayoutWidth="50" LayoutHeight="50">
+			<SkinImageView Id="100001" LayoutHeight="50"  LayoutWidth="50" AlignParentLeft="0" AlignParentVerticalCenter="0"/>
+		</SkinRelativeLayout>
+		<SkinRelativeLayout LayoutWidth="1000" LayoutHeight="FillParent" AlignParentLeft="35" >
+			 <SkinVerticalLayout LayoutHeight="WrapContent" >
+			 	<SkinRelativeLayout LayoutWidth="150" LayoutHeight="30" >
+            		<SkinTextView Id="100002" LayoutWidth="FillParent" LayoutHeight="FillParent" AlignParentLeft ="5" FontColor="ID_COLOR_TEXT_LIGHT"/>
+        		</SkinRelativeLayout>
+			 	<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="30" >
+            		<SkinTextView Id="100003" LayoutWidth="FillParent" LayoutHeight="FillParent" AlignParentLeft ="5"/>
+        		</SkinRelativeLayout>
+			 </SkinVerticalLayout>
+		</SkinRelativeLayout>
+	</SkinHorzPercentLayout>
+</SkinRelativeLayout>

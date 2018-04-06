@@ -1,0 +1,31 @@
+﻿<SkinDialog DefaultWidth="270" 
+			DefaultHeight="600"
+			MinWidth="270"
+			MinHeight="600"
+			SysButton="SKIN;MENU;MIN;CLOSE" 
+			Icon="128" Caption="IDS_APP_NAME" 
+			Animation="SizeChange" 
+			Resize="true" 
+			ThemeHeight="30" 
+			Menu="MainMenu.xml" 
+			TrayMenu="MainMenu.xml"
+			Id="10">
+	<SkinRadioGroup Id="100" LayoutWidth="270" LayoutHeight="30" AlignParentLeft="0" AlignParentTop="100">
+        <SkinRadioButton Id="101" LayoutWidth="135" LayoutHeight="FillParent" ChildText1="常用" Image="TabButton.png" Layout="TabButton.xml" BindView="1100" AlignParentLeft="0" Checked="true"/>
+        <SkinRadioButton Id="102" LayoutWidth="135" LayoutHeight="FillParent" ChildText1="分类" Image="TabButton.png" Layout="TabButton.xml" BindView="1200" AlignParentLeft="135" Radius="5"/>
+    </SkinRadioGroup>
+	<SkinRelativeLayout AlignParentLeft="0" AlignParentTop="130" AlignParentRight="0" AlignParentBottom="0">
+		<SkinFrameLayout Id="1000" AlignParentLeft="0" AlignParentTop="0" AlignParentRight="0" AlignParentBottom="0">
+			<SkinRelativeLayout Id="1100" BkgColor="ID_COLOR_RED">
+				<!--<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent" AlignParentRight="0" AlignParentTop="1" BkgColor="ID_COLOR_WHITE" Border="ID_COLOR_MAIN_TAB_LINE">
+					<SkinListView Id="11001" AlignParentLeft="2" AlignParentRight="2" AlignParentTop="2" AlignParentBottom="2" VScrollBar="VScrollBar.xml">
+						<SkinListItem Id="1100101" LayoutWidth="FillParent" LayoutHeight="50" Layout="CommonlyUsedItem.xml" Image="ListItem.png" ChildImage1="test.ico" ChildText2="我的电脑" />
+					</SkinListView>
+				</SkinRelativeLayout>-->
+			</SkinRelativeLayout>
+			<SkinRelativeLayout Id="1200" BkgColor="ID_COLOR_GREEN" Visible="false">
+				<SkinTextView LayoutWidth="FillParent" LayoutHeight="FillParent" HorzAlignment="Center" FontColor="ID_COLOR_WHITE"/>
+			</SkinRelativeLayout>
+		</SkinFrameLayout>
+	</SkinRelativeLayout>
+</SkinDialog>

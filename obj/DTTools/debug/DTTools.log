@@ -1,0 +1,126 @@
+﻿生成启动时间为 2018/4/6 10:24:36。
+     1>项目“F:\vs_work\CPPProject\DTTools\src\DTTools\DTTools.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\include\SkinUI /I..\third /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\..\obj\DTTools\debug\\" /Fd"..\..\obj\DTTools\debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Layout\CommonlyUsedLayout.cpp
+         CommonlyUsedLayout.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\include\SkinUI /I..\third /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"..\..\obj\DTTools\debug\DTTools.pch" /Fo"..\..\obj\DTTools\debug\\" /Fd"..\..\obj\DTTools\debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MainDialog.cpp
+         MainDialog.cpp
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\debug\DTTools.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\lib\debug /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\pdb\debug\DTTools.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\lib\debug\DTTools.lib" /MACHINE:X86 /SAFESEH ..\..\obj\DTTools\debug\DTTools.res
+         ..\..\obj\DTTools\debug\Command.obj
+         ..\..\obj\DTTools\debug\Dib.obj
+         ..\..\obj\DTTools\debug\Icons.obj
+         ..\..\obj\DTTools\debug\IconSnap.obj
+         ..\..\obj\DTTools\debug\DTTools.obj
+         ..\..\obj\DTTools\debug\CommonlyUsedItem.obj
+         ..\..\obj\DTTools\debug\CommonlyUsedLayout.obj
+         ..\..\obj\DTTools\debug\MainDialog.obj
+         ..\..\obj\DTTools\debug\sqlite3.obj
+         ..\..\obj\DTTools\debug\stdafx.obj
+     1>Command.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:LBR”规范)
+            正在创建库 ..\..\lib\debug\DTTools.lib 和对象 ..\..\lib\debug\DTTools.exp
+     1>SkinUI.lib(WebContainer.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(WebContainer.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(jsoncpp.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(jsoncpp.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(tinyxml2.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(tinyxml2.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(BuildHelper.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(BuildHelper.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(CalendarHelper.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(CalendarHelper.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(ColorManager.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(ColorManager.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(ConfigManager.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(ConfigManager.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(CopyDataPacket.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(CopyDataPacket.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(DataObject.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(DataObject.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(DialogAnimation.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(DialogAnimation.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(DropSource.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(DropSource.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(DropTarget.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(DropTarget.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(FastTimer.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(FastTimer.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(FontManager.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(FontManager.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(GdiPlusHelper.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(GdiPlusHelper.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(HideAnimation.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(HideAnimation.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(HideAnimationHost.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(HideAnimationHost.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(IconExtractor.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(IconExtractor.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(ImageManager.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(ImageManager.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(JsonHelper.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(JsonHelper.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(MapFileManager.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(MapFileManager.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(MonitorManager.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(MonitorManager.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(PaintHelper.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(PaintHelper.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(ResourceManager.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(ResourceManager.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(ShakeHelper.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(ShakeHelper.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinActionSheet.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinActionSheet.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinApplication.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinApplication.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinButton.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinButton.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinCefView.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinCefView.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinCheckBox.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinCheckBox.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinComboBox.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinComboBox.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinDateDialog.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinDateDialog.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinDateLayout.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinDateLayout.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinDateView.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinDateView.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinDialog.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinDialog.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinEditCaret.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinEditCaret.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinEditCommand.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinEditCommand.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinEditEngine.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinEditEngine.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinEditListView.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinEditListView.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinEditObject.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinEditObject.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinEditTextView.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinEditTextView.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinEditView.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinEditView.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinEditViewEx.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinEditViewEx.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinEditViewImpl.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinEditViewImpl.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinFactory.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinFactory.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinFileDialog.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinFileDialog.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinFloatLayout.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinFloatLayout.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinFrameLayout.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinFrameLayout.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinGridLayout.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinGridLayout.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinGridView.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinGridView.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinHorizontalLayout.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinHorizontalLayout.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinHorzPercentLayout.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinHorzPercentLayout.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinHotKeyView.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinHotKeyView.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinHyperlink.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinHyperlink.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinTimeView.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinTimeView.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinViewImageDialog.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinViewImageDialog.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinImageView.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinImageView.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinLayout.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinLayout.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinLine.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinLine.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinListItem.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinListItem.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinListView.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinListView.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinMakeDialog.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinMakeDialog.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinManager.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinManager.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinManagerDialog.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinManagerDialog.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinMenu.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinMenu.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinMessageBox.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinMessageBox.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinPackage.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinPackage.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinPopupDialog.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinPopupDialog.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinProgress.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinProgress.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinRadioButton.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinRadioButton.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinRelativeLayout.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinRelativeLayout.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinSaveAsDialog.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinSaveAsDialog.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinScrollBar.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinScrollBar.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinScrollView.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinScrollView.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinCheckTreeView.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinCheckTreeView.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinSlider.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinSlider.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinSplitter.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinSplitter.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinTextView.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinTextView.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinTipsWindow.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinTipsWindow.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinToast.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinToast.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinTrayIcon.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinTrayIcon.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinTreeItem.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinTreeItem.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinTreeView.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinTreeView.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinFunction.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinFunction.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinUIHelper.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinUIHelper.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinVerticalLayout.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinVerticalLayout.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinVertPercentLayout.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinVertPercentLayout.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinView.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinView.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinIEView.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinIEView.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinWindow.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinWindow.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SkinWndView.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SkinWndView.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SlideAnimationHost.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SlideAnimationHost.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(stdafx.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(stdafx.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(StringHelper.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(StringHelper.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(StringManager.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(StringManager.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SwitchAnimation.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SwitchAnimation.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(SwitchAnimationHost.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(SwitchAnimationHost.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(WebHost.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(WebHost.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SkinUI.lib(XMLHelper.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SkinUI.lib(XMLHelper.obj)”或在“F:\vs_work\CPPProject\DTTools\pdb\debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         DTTools.vcxproj -> F:\vs_work\CPPProject\DTTools\src\DTTools\..\..\bin\debug\DTTools.exe
+     1>已完成生成项目“F:\vs_work\CPPProject\DTTools\src\DTTools\DTTools.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.78

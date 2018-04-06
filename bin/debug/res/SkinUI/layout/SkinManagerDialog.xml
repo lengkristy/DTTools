@@ -1,0 +1,39 @@
+﻿<SkinDialog DefaultWidth="633" DefaultHeight="463" SysButton="CLOSE" Icon="128" Caption="IDS_SKIN_CENTER" Animation="SizeChange" >
+	<SkinGridView Id="101" LayoutHeight="338" AlignParentLeft="8" AlignParentRight="2" AlignParentTop="40" CellSize="122,112" MarginSize="1,1" ColumnCount="5" VScrollBar="VScrollBar.xml">
+		<SkinItem Id="1000" Skin="default"/>
+		<SkinItem Id="1000" Skin="1"/>
+		<SkinItem Id="1000" Skin="2"/>
+		<SkinItem Id="1000" Skin="3"/>
+		<SkinItem Id="1000" Skin="4"/>
+		<SkinItem Id="1000" Skin="5"/>
+		<SkinItem Id="1000" Skin="6"/>
+		<SkinItem Id="1000" Skin="7"/>
+		<SkinItem Id="1000" Skin="8"/>
+		<SkinItem Id="1000" Skin="9"/>
+		<SkinItem Id="1000" Skin="10"/>
+		<SkinItem Id="1000" Skin="11"/>
+	</SkinGridView>
+	<SkinGridView Id="102" LayoutHeight="40" AlignParentLeft="8" AlignParentRight="10" AlignParentTop="379" CellSize="40,40" MarginSize="1,1" ColumnCount="18">
+		<SkinItem Id="1000" Skin="101"/>
+		<SkinItem Id="1000" Skin="102"/>
+		<SkinItem Id="1000" Skin="103"/>
+		<SkinItem Id="1000" Skin="104"/>
+		<SkinItem Id="1000" Skin="105"/>
+		<SkinItem Id="1000" Skin="106"/>
+		<SkinItem Id="1000" Skin="107"/>
+		<SkinItem Id="1000" Skin="108"/>
+		<SkinItem Id="1000" Skin="109"/>
+		<SkinItem Id="1000" Skin="110"/>
+		<SkinItem Id="1000" Skin="111"/>
+		<SkinItem Id="1000" Skin="112"/>
+		<SkinItem Id="1000" Skin="113"/>
+		<SkinItem Id="1000" Skin="114"/>
+		<SkinItem Id="1000" Image="Color.png"/>
+	</SkinGridView>
+	<SkinButton Id="103" LayoutWidth="100" LayoutHeight="26" ChildText2="IDS_DEFINE_SKIN" ChildImage1="MakeSkin.png" Image="Button.png" Layout="IconButton.xml" AlignParentLeft="8" AlignParentBottom="8" PressDownOffset="1"/>
+	<SkinButton Id="107" LayoutWidth="100" LayoutHeight="26" ChildText1="IDS_PACKAGE_SKIN" Image="Button.png" Layout="Button.xml" ToRightOf="103,8" AlignParentBottom="8" PressDownOffset="1"/>
+	<SkinButton Id="108" LayoutWidth="85" LayoutHeight="26" ChildText1="IDS_MORE_SKIN" Image="Button.png" Layout="Button.xml" ToRightOf="107,8" AlignParentBottom="8" PressDownOffset="1"/>
+	<SkinCheckBox Id="106" LayoutWidth="WrapContent" LayoutHeight="26" ToRightOf="108,8" AlignParentBottom="8" ChildText1="IDS_OPEN_AREO" Layout="CheckBox.xml"/>
+	<SkinSlider Id="104" LayoutWidth="170" LayoutHeight="19" AlignParentRight="8" AlignParentBottom="22" Range="255" Pos="0" Image="SliderBkg.png" ThumbImage="SliderThumb.png" Tips="IDS_SET_FULL_TRANSPARENT_SKIN"/>
+	<SkinSlider Id="105" LayoutWidth="170" LayoutHeight="19" AlignParentRight="8" AlignParentBottom="3" Range="100" Pos="0" Image="SliderBkg.png" ThumbImage="SliderThumb.png" Tips="IDS_SET_WINDOW_TRANSPARENT"/>
+</SkinDialog>

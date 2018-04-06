@@ -1,0 +1,5 @@
+﻿<SkinButton>
+	<SkinHorizontalLayout LayoutWidth="WrapContent" LayoutHeight="FillParent">
+		<SkinImageView Id="100001" LayoutWidth="WrapContent" LayoutHeight="WrapContent" Margin="4,4,4,4"/>
+	</SkinHorizontalLayout>
+</SkinButton>
