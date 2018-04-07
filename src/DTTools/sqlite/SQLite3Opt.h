@@ -26,6 +26,10 @@ typedef int BOOL;
 #define FILE_NAME_LENGH 512
 //定义错误消息长度
 #define ERROR_MESSAGE_LENGTH 1024
+//定义结果集的初始长度
+#define QUERY_RESULT_INITIAL_LENGTH 1024
+//定义结果集的每次增长的长度
+#define QEURY_RESULT_GROWTH_SIZE 1024
 
 class SQLite3Opt{
 public:
@@ -38,16 +42,19 @@ public:
 	~SQLite3Opt();
 private:
 	sqlite3 *m_pdb;
-	char m_fileName[FILE_NAME_LENGH];
-	char m_strErrmsg[ERROR_MESSAGE_LENGTH];
+	char m_fileName[FILE_NAME_LENGH];//数据库文件名
+	char m_strErrmsg[ERROR_MESSAGE_LENGTH];//错误信息
+	char* m_pQueryResult;//查询结果集
+	long m_lResultLength;//结果集字符串长度
+	long m_lResultTotalLength;//结果集总分配长度
 public:
 	/****************************************************************************
 	*     FUNCTION: SQLite3CallBackExecuteNonQuery
-	*     PURPOSE:  执行非查询的回调
+	*     PURPOSE:  执行查询的回调，
 	*     PARAMS:
 	*     RETURNS:  int - 
 	\****************************************************************************/
-	static int SQLite3CallBackExecuteNonQuery(void * NotUsed, int argc, char ** argv, char ** szColName);
+	static int SQLite3CallBack(void * NotUsed, int argc, char ** argv, char ** szColName);
 public:
 	/****************************************************************************
 	*     FUNCTION: Connect
@@ -72,6 +79,14 @@ public:
 	*     RETURNS:  int - 返回影响的行数，如果为-1则函数执行失败
 	\****************************************************************************/
 	int ExecuteNonQuery(const char* sql);
+
+	/****************************************************************************
+	*     FUNCTION: ExcecuteQuery
+	*     PURPOSE:  执行一个查询SQL
+	*     PARAMS:
+	*     RETURNS:  int - 
+	\****************************************************************************/
+	int ExcecuteQuery(const char* sql);
 private:
 	/****************************************************************************
 	*     FUNCTION: SetErrmsg
@@ -83,11 +98,11 @@ private:
 protected:
 	/****************************************************************************
 	*     FUNCTION: CallBackExecuteNonQuery
-	*     PURPOSE:  执行一个非查询SQL，的回调虚函数，如insert、delete、update
+	*     PURPOSE:  执行查询回调
 	*     PARAMS:
 	*     RETURNS:  int - 返回影响的行数，如果为-1则函数执行失败
 	\****************************************************************************/
-	virtual int CallBackExecuteNonQuery(int argc, char ** argv, char ** szColName);
+	virtual int CallBackQuery(int argc, char ** argv, char ** szColName);
 };
 
 #endif

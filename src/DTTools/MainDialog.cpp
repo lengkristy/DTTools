@@ -2,6 +2,7 @@
 #include "MainDialog.h"
 #include "Core\IconSnap.h"
 #include "Core\Command.h"
+#include "sqlite\SQLite3Opt.h"
 
 SKINUI_BEGIN_MESSAGE_MAP(CMainDialog, CSkinDialog)
 	ON_SKINUI_WM_NCDESTROY()
@@ -42,8 +43,13 @@ void CMainDialog::OnInitDialog()
 	//this->LoadCommonResource();
 	CreateCommonlyUsedLayout();
 	//
-	
-	
+	SQLite3Opt sqlite("C:\\Users\\lengyue\\Desktop\\1.db");
+	if (!sqlite.Connect())
+	{
+		return;
+	}
+	int i = sqlite.ExecuteNonQuery("insert into test(name) values('sasa')");
+	sqlite.ExcecuteQuery("SELECT * FROM test");
 }
 
 void CMainDialog::CreateCommonlyUsedLayout()

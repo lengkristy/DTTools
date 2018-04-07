@@ -1,10 +1,51 @@
-﻿生成启动时间为 2018/4/6 10:24:36。
+﻿生成启动时间为 2018/4/7 15:50:11。
      1>项目“F:\vs_work\CPPProject\DTTools\src\DTTools\DTTools.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\include\SkinUI /I..\third /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\..\obj\DTTools\debug\\" /Fd"..\..\obj\DTTools\debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Layout\CommonlyUsedLayout.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\include\SkinUI /I..\third /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"..\..\obj\DTTools\debug\DTTools.pch" /Fo"..\..\obj\DTTools\debug\\" /Fd"..\..\obj\DTTools\debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\include\SkinUI /I..\third /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\..\obj\DTTools\debug\\" /Fd"..\..\obj\DTTools\debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Core\Command.cpp Core\Dib.cpp Core\Icons.cpp Core\IconSnap.cpp Layout\CommonlyUsedItem.cpp Layout\CommonlyUsedLayout.cpp sqlite\SQLite3Opt.cpp
+         SQLite3Opt.cpp
+     1>f:\vs_work\cppproject\dttools\src\dttools\sqlite\sqlite3opt.cpp(107): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 参见“strcat”的声明
+     1>f:\vs_work\cppproject\dttools\src\dttools\sqlite\sqlite3opt.cpp(142): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 参见“strcat”的声明
+     1>f:\vs_work\cppproject\dttools\src\dttools\sqlite\sqlite3opt.cpp(144): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 参见“strcat”的声明
+     1>f:\vs_work\cppproject\dttools\src\dttools\sqlite\sqlite3opt.cpp(145): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 参见“strcat”的声明
+     1>f:\vs_work\cppproject\dttools\src\dttools\sqlite\sqlite3opt.cpp(146): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 参见“strcat”的声明
+     1>f:\vs_work\cppproject\dttools\src\dttools\sqlite\sqlite3opt.cpp(147): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 参见“strcat”的声明
+     1>f:\vs_work\cppproject\dttools\src\dttools\sqlite\sqlite3opt.cpp(148): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 参见“strcat”的声明
+     1>f:\vs_work\cppproject\dttools\src\dttools\sqlite\sqlite3opt.cpp(149): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 参见“strcat”的声明
+     1>f:\vs_work\cppproject\dttools\src\dttools\sqlite\sqlite3opt.cpp(156): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 参见“strcat”的声明
+     1>f:\vs_work\cppproject\dttools\src\dttools\sqlite\sqlite3opt.cpp(172): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>f:\vs_work\cppproject\dttools\src\dttools\sqlite\sqlite3opt.cpp(177): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 参见“strcat”的声明
          CommonlyUsedLayout.cpp
-         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\include\SkinUI /I..\third /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"..\..\obj\DTTools\debug\DTTools.pch" /Fo"..\..\obj\DTTools\debug\\" /Fd"..\..\obj\DTTools\debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MainDialog.cpp
+         CommonlyUsedItem.cpp
+         IconSnap.cpp
+         Icons.cpp
+     1>f:\vs_work\cppproject\dttools\src\dttools\core\icons.cpp(594): warning C4101: “lpBits”: 未引用的局部变量
+     1>f:\vs_work\cppproject\dttools\src\dttools\core\icons.cpp(593): warning C4101: “hGlobal”: 未引用的局部变量
+     1>f:\vs_work\cppproject\dttools\src\dttools\core\icons.cpp(638): warning C4101: “lpbi”: 未引用的局部变量
+     1>f:\vs_work\cppproject\dttools\src\dttools\core\icons.cpp(639): warning C4101: “hClipGlobal”: 未引用的局部变量
+         Dib.cpp
+         Command.cpp
+         正在生成代码...
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\include\SkinUI /I..\third /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"..\..\obj\DTTools\debug\DTTools.pch" /Fo"..\..\obj\DTTools\debug\\" /Fd"..\..\obj\DTTools\debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt DTTools.cpp MainDialog.cpp
          MainDialog.cpp
+         DTTools.cpp
+         正在生成代码...
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\include\SkinUI /I..\third /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\..\obj\DTTools\debug\\" /Fd"..\..\obj\DTTools\debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt sqlite\sqlite3.c
+         sqlite3.c
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"..\..\obj\DTTools\debug\DTTools.res" DTTools.rc 
        Link:
          D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\debug\DTTools.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\lib\debug /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\pdb\debug\DTTools.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\lib\debug\DTTools.lib" /MACHINE:X86 /SAFESEH ..\..\obj\DTTools\debug\DTTools.res
          ..\..\obj\DTTools\debug\Command.obj
@@ -16,6 +57,7 @@
          ..\..\obj\DTTools\debug\CommonlyUsedLayout.obj
          ..\..\obj\DTTools\debug\MainDialog.obj
          ..\..\obj\DTTools\debug\sqlite3.obj
+         ..\..\obj\DTTools\debug\SQLite3Opt.obj
          ..\..\obj\DTTools\debug\stdafx.obj
      1>Command.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:LBR”规范)
             正在创建库 ..\..\lib\debug\DTTools.lib 和对象 ..\..\lib\debug\DTTools.exp
@@ -123,4 +165,4 @@
 
 生成成功。
 
-已用时间 00:00:03.78
+已用时间 00:00:13.75

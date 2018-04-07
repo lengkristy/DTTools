@@ -102,6 +102,9 @@
     <ClCompile Include="sqlite\sqlite3.c">
       <Filter>Sqlite\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="sqlite\SQLite3Opt.cpp">
+      <Filter>Sqlite\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Resource.h">
@@ -168,6 +171,9 @@
       <Filter>Core\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="sqlite\sqlite3.h">
+      <Filter>Sqlite\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite\SQLite3Opt.h">
       <Filter>Sqlite\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
